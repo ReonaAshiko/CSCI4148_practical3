@@ -690,12 +690,12 @@ In the following you can see an example of how we can load pre-trained models in
 
 ```{r}
 # Load the pre-trained MobileNet model
-mobilenet <- model_mobilenet_v2(pretrained = TRUE)
+#mobilenet <- model_mobilenet_v2(pretrained = TRUE)
 
 # Modify the last fully connected layer to match your classification task
 
 #in_features <- mobilenet$classifier$in_features
-mobilenet$classifier <- nn_linear(224*224*3, 2)   # Adjust the output size based on your classification task
+#mobilenet$classifier <- nn_linear(224*224*3, 2)   # Adjust the output size based on your classification task
 ```
 **10_** Using the provided materials in this practical, train a different network architecture. Does this perform better?
 

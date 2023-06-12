@@ -585,6 +585,9 @@ It seems that the model is not training effectively the model is struggling to l
 
 **5_** what is your suggestions to solve this problem? How could we improve this model?
 
+If there is more dataset, adding the data could be one of the technique to solve this problem.
+We can adjust the depth and width of the model to improve this model.
+
 # Data Augmentation
 Data augmentation is one of the solutions to consider when facing training difficulties. Data augmentation involves applying various transformations or modifications to the existing training data, effectively expanding the dataset and introducing additional variations. This technique can help improve model performance and generalization by providing the model with more diverse examples to learn from.
 
